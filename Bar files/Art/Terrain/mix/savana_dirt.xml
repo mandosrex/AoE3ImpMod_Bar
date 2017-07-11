@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mix>
+	<icon>terrain\mix\jimmy</icon>
+	<paint mode="turbulence" freq="0.15" octaves="10" persistence="0.5">
+		<texture weight="1">savannah\savannah_1</texture>
+		<texture weight="1">savannah\savannah_2</texture>
+		<texture weight="1">savannah\savannah_3</texture>
+	</paint>
+</mix>

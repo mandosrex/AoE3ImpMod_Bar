@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<terrainerosion>
+	<parameters>
+		<minerosionstages>0</minerosionstages>
+		<maxerosionstages>1</maxerosionstages>
+		<extraradiusscale>1.2</extraradiusscale>
+		<extraradiusmin>5</extraradiusmin>
+		<extraradiusmax>9</extraradiusmax>
+		<bevelamount>0.25</bevelamount>
+		<minerosionalpha>0.4</minerosionalpha>
+		<maxerosionalpha>1.0</maxerosionalpha>
+		<alphavariation>0.1</alphavariation>
+	</parameters>
+	<sequence name="Andes">
+		<level>
+			<tile>andes\ground07_and</tile>
+			<tile>andes\ground08_and</tile>
+			<tile>andes\ground09_and</tile>
+			<tile>andes\ground10_and</tile>
+			<tile>andes\ground11_and</tile>
+			<tile>andes\ground16_and</tile>
+			<tile>andes\ground17_and</tile>
+			<tile>andes\ground18_and</tile>
+		</level>
+		<level>
+			<tile>andes\ground17_and</tile>
+		</level>
+	</sequence>
+	<sequence name="Andes Snow">
+		<level>
+			<tile>andes\ground1_and</tile>
+			<tile>andes\ground2_and</tile>
+			<tile>andes\ground3_and</tile>
+			<tile>andes\ground4_and</tile>
+			<tile>andes\ground5_and</tile>
+			<tile>andes\ground6_and</tile>
+			<tile>andes\ground7_and</tile>
+			<tile>andes\ground8_and</tile>
+			<tile>andes\groundforest_and</tile>
+		</level>
+		<level>
+			<tile>andes\ground7_and</tile>
+		</level>
+	</sequence>
+	<sequence name="Carolinas Grass">
+		<level>
+			<tile>carolinas\ground_grass1_car</tile>
+			<tile>carolinas\ground_grass2_car</tile>
+			<tile>carolinas\ground_grass3_car</tile>
+			<tile>carolinas\ground_grass4_car</tile>
+			<tile>carolinas\groundforest_car</tile>
+		</level>
+		<level>
+			<tile>carolinas\ground_grass4_car</tile>
+		</level>
+	</sequence>
+	<sequence name="Carolinas Sand">
+		<level>
+			<tile>carolinas\ground_shoreline1_car</tile>
+			<tile>carolinas\ground_shoreline2_car</tile>
+			<tile>carolinas\ground_shoreline3_car</tile>
+		</level>
+		<level>
+			<tile>carolinas\ground_marsh1_car</tile>
+		</level>
+	</sequence>
+	<sequence name="Carolinas Sand Grass">
+		<level>
+			<tile>carolinas\ground_marsh1_car</tile>
+			<tile>carolinas\ground_marsh2_car</tile>
+			<tile>carolinas\ground_marsh3_car</tile>
+		</level>
+		<level>
+			<tile>carolinas\ground_marsh3_car</tile>
+		</level>
+	</sequence>
+	<sequence name="Amazon">
+		<level>
+			<tile>amazon\ground1_ama</tile>
+			<tile>amazon\ground2_ama</tile>
+			<tile>amazon\ground3_ama</tile>
+			<tile>amazon\ground4_ama</tile>
+			<tile>amazon\ground5_ama</tile>
+			<tile>amazon\ground_spice_ama</tile>
+			<tile>amazon\groundforest_ama</tile>
+		</level>
+		<level>
+			<tile>amazon\ground4_ama</tile>
+		</level>
+	</sequence>
+	<sequence name="Bayou">
+		<level>
+			<tile>bayou\ground1_bay</tile>
+			<tile>bayou\ground2_bay</tile>
+			<tile>bayou\ground3_bay</tile>
+			<tile>bayou\ground4_bay</tile>
+			<tile>bayou\ground5_bay</tile>
+			<tile>bayou\ground6_bay</tile>
+			<tile>bayou\ground7_bay</tile>
+			<tile>bayou\groundforest_bay</tile>
+		</level>
+		<level>
+			<tile>bayou\ground5_bay</tile>
+		</level>
+	</sequence>
+	<sequence name="Caribbean Grass">
+		<level>
+			<tile>caribbean\ground1_crb</tile>
+			<tile>caribbean\ground2_crb</tile>
+			<tile>caribbean\ground3_crb</tile>
+			<tile>caribbean\ground4_crb</tile>
+			<tile>caribbean\ground5_crb</tile>
+			<tile>caribbean\ground6_crb</tile>
+			<tile>caribbean\ground7_crb</tile>
+			<tile>caribbean\groundforest_crb</tile>
+		</level>
+		<level>
+			<tile>caribbean\ground3_crb</tile>
+		</level>
+	</sequence>
+	<sequence name="Caribbean Sand">
+		<level>
+			<tile>caribbean\ground_shoreline1_crb</tile>
+			<tile>caribbean\ground_shoreline2_crb</tile>
+			<tile>caribbean\ground_shoreline3_crb</tile>
+		</level>
+		<level>
+			<tile>caribbean\ground_shoreline2_crb</tile>
+		</level>
+	</sequence>
+	<sequence name="grand canyon">
+		<level>
+			<tile>grandcanyon\gc_texture_diffuse_07a</tile>
+			<tile>grandcanyon\gc_texture_diffuse_07b</tile>
+			<tile>grandcanyon\gc_texture_diffuse_07c</tile>
+			<tile>grandcanyon\gc_texture_diffuse_08a</tile>
+			<tile>grandcanyon\gc_texture_diffuse_08b</tile>
+		</level>
+		<level>
+			<tile>grandcanyon\gc_texture_diffuse_08c</tile>
+		</level>
+		<level>
+			<tile>grandcanyon\gc_texture_diffuse_09a</tile>
+		</level>
+		<level>
+			<tile>grandcanyon\gc_texture_diffuse_09b</tile>
+		</level>
+	</sequence>
+	<sequence name="Great Plains Grass">
+		<level>
+			<tile>great_plains\ground1_gp</tile>
+			<tile>great_plains\ground2_gp</tile>
+			<tile>great_plains\ground3_gp</tile>
+			<tile>great_plains\ground4_gp</tile>
+			<tile>great_plains\ground5_gp</tile>
+			<tile>great_plains\ground6_gp</tile>
+			<tile>great_plains\ground7_gp</tile>
+			<tile>great_plains\ground8_gp</tile>
+			<tile>great_plains\groundforest_gp</tile>
+		</level>
+		<level>
+			<tile>great_plains\ground6_gp</tile>
+		</level>
+	</sequence>
+	<sequence name="Great Lakes">
+		<level>
+			<tile>great_lakes\ground_grass1_gl</tile>
+			<tile>great_lakes\ground_grass2_gl</tile>
+			<tile>great_lakes\ground_grass3_gl</tile>
+			<tile>great_lakes\ground_grass4_gl</tile>
+			<tile>great_lakes\ground_grass5_gl</tile>
+			<tile>great_lakes\groundforest_gl</tile>
+		</level>
+		<level>
+			<tile>great_lakes\ground_shoreline3_gl</tile>
+		</level>
+	</sequence>
+	<sequence name="Great Lakes Snow">
+		<level>
+			<tile>great_lakes\ground_snow1_gl</tile>
+			<tile>great_lakes\ground_snow2_gl</tile>
+			<tile>great_lakes\ground_snow3_gl</tile>
+			<tile>great_lakes\ground_snow4_gl</tile>
+			<tile>great_lakes\ground_snow5_gl</tile>
+		</level>
+		<level>
+			<tile>great_lakes\ground_snow5_gl</tile>
+		</level>
+	</sequence>
+	<sequence name="New England">
+		<level>
+			<tile>new_england\ground1_ne</tile>
+			<tile>new_england\ground3_ne</tile>
+			<tile>new_england\ground2_ne</tile>
+			<tile>new_england\ground4_ne</tile>
+			<tile>new_england\ground5_ne</tile>
+			<tile>new_england\groundforest1_ne</tile>
+			<tile>new_england\groundforest_ne</tile>
+		</level>
+		<level>
+			<tile>new_england\ground2_ne</tile>
+		</level>
+	</sequence>
+	<sequence name="New England Shore">
+		<level>
+			<tile>new_england\shoreline1_ne</tile>
+			<tile>new_england\shoreline2_ne</tile>
+			<tile>new_england\shoreline3_ne</tile>
+			<tile>new_england\shoreline4_ne</tile>
+			<tile>new_england\shoreline5_ne</tile>
+		</level>
+		<level>
+			<tile>new_england\shoreline3_ne</tile>
+		</level>
+	</sequence>
+	<sequence name="Pampas">
+		<level>
+			<tile>pampas\ground1_pam</tile>
+			<tile>pampas\ground2_pam</tile>
+			<tile>pampas\ground3_pam</tile>
+			<tile>pampas\ground4_pam</tile>
+			<tile>pampas\ground5_pam</tile>
+			<tile>pampas\ground6_pam</tile>
+			<tile>pampas\groundforest_pam</tile>
+		</level>
+		<level>
+			<tile>pampas\ground3_pam</tile>
+		</level>
+	</sequence>
+	<sequence name="Patagonia">
+		<level>
+			<tile>patagonia\ground_grass1_pat</tile>
+			<tile>patagonia\ground_grass2_pat</tile>
+			<tile>patagonia\ground_grass3_pat</tile>
+			<tile>patagonia\ground_dirt1_pat</tile>
+			<tile>patagonia\ground_dirt2_pat</tile>
+			<tile>patagonia\ground_dirt3_pat</tile>
+			<tile>patagonia\groundforest_pat</tile>
+		</level>
+		<level>
+			<tile>patagonia\ground_dirt3_pat</tile>
+		</level>
+	</sequence>
+	<sequence name="Patagonia Shore">
+		<level>
+			<tile>patagonia\ground_shoreline1_pat</tile>
+			<tile>patagonia\ground_shoreline2_pat</tile>
+			<tile>patagonia\ground_shoreline3_pat</tile>
+		</level>
+		<level>
+			<tile>patagonia\ground_shoreline2_pat</tile>
+		</level>
+	</sequence>
+	<sequence name="Patagonia Snow">
+		<level>
+			<tile>patagonia\ground_snow1_pat</tile>
+			<tile>patagonia\ground_snow2_pat</tile>
+			<tile>patagonia\ground_snow3_pat</tile>
+			<tile>patagonia\ground_snow4_pat</tile>
+			<tile>patagonia\groundforest_snow_pat</tile>
+		</level>
+		<level>
+			<tile>patagonia\ground_snow1_pat</tile>
+		</level>
+	</sequence>
+	<sequence name="Rockies Grass">
+		<level>
+			<tile>rockies\ground1_roc</tile>
+			<tile>rockies\ground2_roc</tile>
+			<tile>rockies\ground3_roc</tile>
+			<tile>rockies\ground4_roc</tile>
+			<tile>rockies\ground5_roc</tile>
+			<tile>rockies\ground6_roc</tile>
+			<tile>rockies\ground7_roc</tile>
+			<tile>rockies\groundforest_roc</tile>
+		</level>
+		<level>
+			<tile>rockies\ground2_roc</tile>
+		</level>
+	</sequence>
+	<sequence name="Rockies Snow">
+		<level>
+			<tile>rockies\groundsnow1_roc</tile>
+			<tile>rockies\groundsnow2_roc</tile>
+			<tile>rockies\groundsnow3_roc</tile>
+			<tile>rockies\groundsnow4_roc</tile>
+			<tile>rockies\groundsnow5_roc</tile>
+			<tile>rockies\groundsnow6_roc</tile>
+			<tile>rockies\groundsnow7_roc</tile>
+			<tile>rockies\groundsnow8_roc</tile>
+			<tile>rockies\groundforestsnow_roc</tile>
+		</level>
+		<level>
+			<tile>rockies\groundsnow8_roc</tile>
+		</level>
+	</sequence>
+	<sequence name="Saguenay">
+		<level>
+			<tile>Saguenay\ground1_sag</tile>
+			<tile>Saguenay\ground2_sag</tile>
+			<tile>Saguenay\ground3_sag</tile>
+			<tile>Saguenay\ground4_sag</tile>
+			<tile>Saguenay\ground5_sag</tile>
+			<tile>Saguenay\ground6_sag</tile>
+			<tile>Saguenay\groundforest_sag</tile>
+		</level>
+		<level>
+			<tile>Saguenay\ground4_sag</tile>
+		</level>
+	</sequence>
+	<sequence name="Saguenay Shore">
+		<level>
+			<tile>Saguenay\shoreline1_sag</tile>
+			<tile>Saguenay\shoreline2_sag</tile>
+			<tile>Saguenay\shoreline3_sag</tile>
+		</level>
+		<level>
+			<tile>Saguenay\shoreline1_sag</tile>
+		</level>
+	</sequence>
+	<sequence name="Sonora">
+		<level>
+			<tile>sonora\ground1_son</tile>
+			<tile>sonora\ground2_son</tile>
+			<tile>sonora\ground3_son</tile>
+			<tile>sonora\ground4_son</tile>
+			<tile>sonora\ground5_son</tile>
+			<tile>sonora\ground6_son</tile>
+			<tile>sonora\ground7_son</tile>
+			<tile>sonora\groundforest_son</tile>
+		</level>
+		<level>
+			<tile>sonora\ground3_son</tile>
+		</level>
+	</sequence>
+	<sequence name="Texas Grass">
+		<level>
+			<tile>texas\ground1_tex</tile>
+			<tile>texas\ground2_tex</tile>
+			<tile>texas\ground6_tex</tile>
+			<tile>texas\groundforest_tex</tile>
+		</level>
+		<level>
+			<tile>texas\ground3_tex</tile>
+		</level>
+	</sequence>
+	<sequence name="Texas Dirt">
+		<level>
+			<tile>texas\ground4_tex</tile>
+			<tile>texas\ground3_tex</tile>
+			<tile>texas\ground5_tex</tile>
+			<tile>texas\groundforestdirt_tex</tile>
+		</level>
+		<level>
+			<tile>texas\ground5_tex</tile>
+		</level>
+	</sequence>
+	<sequence name="Yukon Dirt">
+		<level>
+			<tile>yukon\ground3_yuk</tile>
+			<tile>yukon\ground3x_yuk</tile>
+		</level>
+		<level>
+			<tile>yukon\ground3_yuk</tile>
+		</level>
+	</sequence>
+	<sequence name="Yukon Snow">
+		<level>
+			<tile>yukon\ground1_yuk</tile>
+			<tile>yukon\ground2_yuk</tile>
+			<tile>yukon\ground4_yuk</tile>
+			<tile>yukon\ground5_yuk</tile>
+			<tile>yukon\ground6_yuk</tile>
+			<tile>yukon\ground7_yuk</tile>
+			<tile>yukon\ground8_yuk</tile>
+			<tile>yukon\ground9_yuk</tile>
+			<tile>yukon\groundforestsnow_yuk</tile>
+			<tile>yukon\groundforest_snow_yuk</tile>
+		</level>
+		<level>
+			<tile>yukon\ground7_yuk</tile>
+		</level>
+	</sequence>
+	<sequence name="California Coast Grass">
+		<level>
+			<tile>california\ground6_cal</tile>
+			<tile>california\ground7_cal</tile>
+			<tile>california\ground8_cal</tile>
+			<tile>california\ground9_cal</tile>
+			<tile>california\desert5_cal</tile>
+			<tile>california\desert6_cal</tile>
+			<tile>california\groundforest_cal</tile>
+			<tile>california\fakecalifgrassmix_cal</tile>
+			<tile>california\fakecalifgrassmix2_cal</tile>
+		</level>
+		<level>
+			<tile>california\desert4_cal</tile>
+		</level>
+	</sequence>
+	<sequence name="California Highland Grass">
+		<level>
+			<tile>california\ground1_cal</tile>
+			<tile>california\ground2_cal</tile>
+			<tile>california\ground3_cal</tile>
+			<tile>california\ground4_cal</tile>
+			<tile>california\ground5_cal</tile>
+			<tile>california\groundforestpalm_cal</tile>
+		</level>
+		<level>
+			<tile>california\ground2_cal</tile>
+		</level>
+	</sequence>
+	<sequence name="California Desert Grass">
+		<level>
+			<tile>california\desert1_cal</tile>
+			<tile>california\desert2_cal</tile>
+			<tile>california\desert3_cal</tile>
+			<tile>california\desert4_cal</tile>
+		</level>
+		<level>
+			<tile>california\desert2_cal</tile>
+		</level>
+	</sequence>
+	<sequence name="California Shore">
+		<level>
+			<tile>california\groundshore1_cal</tile>
+			<tile>california\groundshore1a_cal</tile>
+			<tile>california\groundshore1b_cal</tile>
+			<tile>california\groundshore2_cal</tile>
+			<tile>california\groundshore2a_cal</tile>
+			<tile>california\groundshore2b_cal</tile>
+			<tile>california\groundshore3_cal</tile>
+			<tile>california\groundshore3b_cal</tile>
+			<tile>california\groundshore3c_cal</tile>
+			<tile>california\groundshore3d_cal</tile>
+			<tile>california\groundshore3e_cal</tile>
+			<tile>california\groundshore4_cal</tile>
+		</level>
+		<level>
+			<tile>california\groundshore2_cal</tile>
+		</level>
+	</sequence>
+	<sequence name="Northwest Territory Grass">
+		<level>
+			<tile>nwterritory\ground_grass1_nwt</tile>
+			<tile>nwterritory\ground_grass1a_nwt</tile>
+			<tile>nwterritory\ground_grass2_nwt</tile>
+			<tile>nwterritory\ground_grass3_nwt</tile>
+			<tile>nwterritory\ground_grass4_nwt</tile>
+			<tile>nwterritory\ground_grass5_nwt</tile>
+			<tile>nwterritory\groundforest_nwt</tile>
+		</level>
+		<level>
+			<tile>nwterritory\ground_shoreline3_nwt</tile>
+		</level>
+	</sequence>
+	<sequence name="Northwest Territory Shore">
+		<level>
+			<tile>nwterritory\ground_shoreline1_nwt</tile>
+			<tile>nwterritory\ground_shoreline2_nwt</tile>
+			<tile>nwterritory\ground_shoreline3_nwt</tile>
+			<tile>nwterritory\ground_shoreline4_nwt</tile>
+		</level>
+		<level>
+			<tile>nwterritory\ground_shoreline3_nwt</tile>
+		</level>
+	</sequence>
+	<sequence name="Araucania Grass">
+		<level>
+			<tile>araucania\ground_grass1_ara</tile>
+			<tile>araucania\ground_grass2_ara</tile>
+			<tile>araucania\ground_grass3_ara</tile>
+			<tile>araucania\araucania_central\ground_grass1_ara</tile>
+			<tile>araucania\araucania_central\ground_grass2_ara</tile>
+			<tile>araucania\araucania_central\ground_grass3_ara</tile>
+			<tile>araucania\groundforestcentral</tile>
+		</level>
+		<level>
+			<tile>araucania\ground_grass3_ara</tile>
+		</level>
+	</sequence>
+	<sequence name="Araucania Grass Dirt">
+		<level>
+			<tile>araucania\ground08_ara</tile>
+			<tile>araucania\ground09_ara</tile>
+			<tile>araucania\ground10_ara</tile>
+			<tile>araucania\ground11_ara</tile>
+			<tile>araucania\ground12_ara</tile>
+			<tile>araucania\groundforestcentral</tile>
+		</level>
+		<level>
+			<tile>araucania\ground08_ara</tile>
+		</level>
+	</sequence>
+	<sequence name="Araucania Dirty">
+		<level>
+			<tile>araucania\ground_dirt1_ara</tile>
+			<tile>araucania\ground_dirt2_ara</tile>
+			<tile>araucania\ground_dirt3_ara</tile>
+		</level>
+		<level>
+			<tile>araucania\ground_dirt2_ara</tile>
+		</level>
+	</sequence>
+	<sequence name="Araucania Dirt">
+		<level>
+			<tile>araucania\araucania north\ground17_ara</tile>
+			<tile>araucania\araucania north\ground18_ara</tile>
+			<tile>araucania\araucania_central\ground_dirt1_ara</tile>
+			<tile>araucania\araucania_central\ground_dirt2_ara</tile>
+			<tile>araucania\araucania_central\ground_dirt3_ara</tile>
+			<tile>araucania\araucania central\ground_dirt1_ara</tile>
+			<tile>araucania\araucania central\ground_dirt2_ara</tile>
+			<tile>araucania\araucania central\ground_dirt3_ara</tile>
+			<tile>araucania\araucania central\ground_dirt1_pat</tile>
+			<tile>araucania\araucania central\ground_dirt2_pat</tile>
+			<tile>araucania\araucania central\ground_dirt3_pat</tile>
+			<tile>araucania\groundforest_ara</tile>
+		</level>
+		<level>
+			<tile>araucania\araucania central\ground_dirt2_pat</tile>
+		</level>
+	</sequence>
+	<sequence name="Araucania Snow">
+		<level>
+			<tile>araucania\ground_snow1_ara</tile>
+			<tile>araucania\ground_snow2_ara</tile>
+			<tile>araucania\ground_snow3_ara</tile>
+			<tile>araucania\ground_snow4_ara</tile>
+			<tile>araucania\ground_snow5_ara</tile>
+			<tile>araucania\araucania central\ground_snow1_pat</tile>
+			<tile>araucania\araucania central\ground_snow2_pat</tile>
+			<tile>araucania\araucania central\ground_snow3_pat</tile>
+			<tile>araucania\araucania central\ground_snow4_pat</tile>
+		</level>
+		<level>
+			<tile>araucania\ground_snow1_ara</tile>
+		</level>
+	</sequence>
+	<sequence name="Araucania Shore Dirt">
+		<level>
+			<tile>araucania\groundshore1_ara</tile>
+			<tile>araucania\groundshore2_ara</tile>
+			<tile>araucania\groundshore3_ara</tile>
+		</level>
+		<level>
+			<tile>araucania\groundshore2_ara</tile>
+		</level>
+	</sequence>
+	<sequence name="Araucania Shore">
+		<level>
+			<tile>araucania\groundshore4_ara</tile>
+			<tile>araucania\groundshore5_ara</tile>
+			<tile>araucania\groundshore6_ara</tile>
+			<tile>araucania\groundshore7_ara</tile>
+			<tile>araucania\groundshore8_ara</tile>
+			<tile>araucania\araucania central\ground_shoreline1_pat</tile>
+			<tile>araucania\araucania central\ground_shoreline2_pat</tile>
+			<tile>araucania\araucania central\ground_shoreline3_pat</tile>
+			<tile>araucania\araucania_central\groundshore4_ara</tile>
+			<tile>araucania\araucania_central\groundshore5_ara</tile>
+			<tile>araucania\araucania_central\groundshore6_ara</tile>
+		</level>
+		<level>
+			<tile>araucania\groundshore7_ara</tile>
+		</level>
+	</sequence>
+	<sequence name="Painted Desert">
+		<level>
+			<tile>painteddesert\pd_ground_diffuse_a</tile>
+			<tile>painteddesert\pd_ground_diffuse_b</tile>
+			<tile>painteddesert\pd_ground_diffuse_c</tile>
+			<tile>painteddesert\pd_ground_diffuse_d</tile>
+			<tile>painteddesert\pd_ground_diffuse_e</tile>
+			<tile>painteddesert\pd_ground_diffuse_f</tile>
+			<tile>painteddesert\pd_ground_diffuse_g</tile>
+			<tile>painteddesert\pd_ground_diffuse_h</tile>
+			<tile>painteddesert\pd_ground_diffuse_i</tile>
+			<tile>painteddesert\pd_ground_diffuse_j</tile>
+			<tile>painteddesert\pd_ground_diffuse_k</tile>
+			<tile>painteddesert\pd_ground_diffuse_l</tile>
+		</level>
+		<level>
+			<tile>painteddesert\pd_ground_diffuse_i</tile>
+		</level>
+	</sequence>
+	<sequence name="Borneo Grass">
+		<level>
+			<tile>borneo\ground_grass1_borneo</tile>
+			<tile>borneo\ground_grass2_borneo</tile>
+			<tile>borneo\ground_grass3_borneo</tile>
+			<tile>borneo\ground_grass4_borneo</tile>
+			<tile>borneo\ground_grass5_borneo</tile>
+			<tile>borneo\ground_forest_borneo</tile>
+		</level>
+		<level>
+			<tile>borneo\ground_grass5_borneo</tile>
+		</level>
+	</sequence>
+	<sequence name="Borneo Sand">
+		<level>
+			<tile>borneo\ground_sand1_borneo</tile>
+			<tile>borneo\ground_sand2_borneo</tile>
+			<tile>borneo\ground_sand3_borneo</tile>
+			<tile>borneo\shoreline1_borneo</tile>
+			<tile>borneo\shoreline1</tile>
+		</level>
+		<level>
+			<tile>borneo\ground_sand2_borneo</tile>
+		</level>
+	</sequence>
+	<sequence name="Ceylon Grass">
+		<level>
+			<tile>ceylon\ground_sand1_ceylon</tile>
+			<tile>ceylon\ground_sand2_ceylon</tile>
+			<tile>ceylon\ground_sand3_ceylon</tile>
+			<tile>ceylon\ground_sand4_ceylon</tile>
+		</level>
+		<level>
+			<tile>ceylon\ground_sand2_ceylon</tile>
+		</level>
+	</sequence>
+	<sequence name="Ceylon Sand">
+		<level>
+			<tile>ceylon\ground_shoreline1_ceylon</tile>
+			<tile>ceylon\ground_shoreline2_ceylon</tile>
+		</level>
+		<level>
+			<tile>ceylon\ground_sand4_ceylon</tile>
+		</level>
+	</sequence>
+	<sequence name="Japan Dirt">
+		<level>
+			<tile>coastal_japan\ground_dirt1_co_japan</tile>
+			<tile>coastal_japan\ground_dirt2_co_japan</tile>
+			<tile>coastal_japan\ground_dirt3_co_japan</tile>
+			<tile>coastal_japan\ground_dirt4_co_japan</tile>
+			<tile>coastal_japan\shoreline1_co_japan</tile>
+		</level>
+		<level>
+			<tile>coastal_japan\ground_dirt4_co_japan</tile>
+		</level>
+	</sequence>
+	<sequence name="Japan Grass">
+		<level>
+			<tile>coastal_japan\ground_grass1_co_japan</tile>
+			<tile>coastal_japan\ground_grass2_co_japan</tile>
+			<tile>coastal_japan\ground_grass3_co_japan</tile>
+			<tile>coastal_japan\ground_forest_co_japan</tile>
+		</level>
+		<level>
+			<tile>coastal_japan\ground_dirt3_co_japan</tile>
+		</level>
+	</sequence>
+	<sequence name="Deccan Grass">
+		<level>
+			<tile>deccan\ground_grass1_deccan</tile>
+			<tile>deccan\ground_grass2_deccan</tile>
+			<tile>deccan\ground_grass3_deccan</tile>
+			<tile>deccan\ground_grass4_deccan</tile>
+			<tile>deccan\ground_forest_deccan</tile>
+		</level>
+		<level>
+			<tile>deccan\ground_grass3_deccan</tile>
+		</level>
+	</sequence>
+	<sequence name="Deccan Dirt">
+		<level>
+			<tile>deccan\ground_dirt2_deccan</tile>
+			<tile>deccan\ground_dirt3_deccan</tile>
+			<tile>deccan\ground_dirt4_deccan</tile>
+			<tile>deccan\ground_dirt5_deccan</tile>
+		</level>
+		<level>
+			<tile>deccan\ground_dirt3_deccan</tile>
+		</level>
+	</sequence>
+	<sequence name="Himalayas">
+		<level>
+			<tile>himalayas\ground_dirt1_himal</tile>
+			<tile>himalayas\ground_dirt2_himal</tile>
+			<tile>himalayas\ground_dirt3_himal</tile>
+			<tile>himalayas\ground_dirt4_himal</tile>
+			<tile>himalayas\ground_dirt5_himal</tile>
+			<tile>himalayas\ground_dirt6_himal</tile>
+			<tile>himalayas\ground_dirt7_himal</tile>
+			<tile>himalayas\ground_dirt8_himal</tile>
+		</level>
+		<level>
+			<tile>himalayas\ground_dirt2_himal</tile>
+		</level>
+	</sequence>
+	<sequence name="Yellow River Grass">
+		<level>
+			<tile>yellow_river\grass1_yellow_riv</tile>
+			<tile>yellow_river\grass2_yellow_riv</tile>
+			<tile>yellow_river\grass3_yellow_riv</tile>
+			<tile>yellow_river\grass4_yellow_riv</tile>
+			<tile>yellow_river\forest_yellow_riv</tile>
+		</level>
+		<level>
+			<tile>yellow_river\grass2_yellow_riv</tile>
+		</level>
+	</sequence>
+	<sequence name="Yellow River Dirt">
+		<level>
+			<tile>yellow_river\stone1_yellow_riv</tile>
+			<tile>yellow_river\stone2_yellow_riv</tile>
+			<tile>yellow_river\stone3_yellow_riv</tile>
+			<tile>yellow_river\shoreline1_yellow_riv</tile>
+		</level>
+		<level>
+			<tile>yellow_river\stone2_yellow_riv</tile>
+		</level>
+	</sequence>
+</terrainerosion>

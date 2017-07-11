@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<terraintypes version="1" edgetype="edge_of_world\edge_of_world" edgedensity="8">
+	<type name="PassableLand" uiname="Land" mapcolor="1 56 184" impassablewater="">
+		<uiclass uiname="Rockies">
+			<subtype mapcolor="040 040 055" impacttype="terrainsnow" bump="rockies\groundsnow1_bump_roc">rockies\clifftop_roc</subtype>
+		</uiclass>
+		<uiclass uiname="Borneo">
+			<subtype mapcolor="179 177 152" impacttype="terraingrass" bump="sahara\sand_bump">borneo\ground_sand1_borneo</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="sahara\sand_bump">borneo\ground_sand2_borneo</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="sahara\sand_bump">borneo\ground_sand3_borneo</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="borneo\ground_grass1_bumpspec_borneo">borneo\ground_grass1_borneo</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="borneo\ground_grass2_bumpspec_borneo">borneo\ground_grass2_borneo</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="borneo\ground_grass3_bumpspec_borneo">borneo\ground_grass3_borneo</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="borneo\ground_grass3_bumpspec_borneo">borneo\ground_grass4_borneo</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="borneo\ground_grass3_bumpspec_borneo">borneo\ground_grass5_borneo</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="borneo\ground_grass3_bumpspec_borneo">borneo\ground_grass5_borneo</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="borneo\ground_forest_bumpspec_borneo">borneo\ground_forest_borneo</subtype>
+		</uiclass>
+		<uiclass uiname="Ceylon">
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\ground_sand1_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\ground_sand2_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\ground_sand3_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\ground_sand4_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\ground_grass1_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\ground_grass2_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\ground_grass3_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\ground_grass4_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\seafloor0_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\seafloor1_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\seafloor2_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\seafloor3_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\seafloor4_ceylon</subtype>
+			<subtype mapcolor="215 198 169" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\seafloor5_ceylon</subtype>
+			<subtype mapcolor="132 145 93" impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\clifftop_ceylon</subtype>
+		</uiclass>
+		<uiclass uiname="Coastal Japan">
+			<subtype mapcolor="097 125 078" impacttype="terraindirt" bump="coastal_japan\ground_dirt1_specbump_co_japan">coastal_japan\ground_dirt1_co_japan</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraindirt" bump="coastal_japan\ground_dirt2_specbump_co_japan">coastal_japan\ground_dirt2_co_japan</subtype>
+			<subtype mapcolor="109 109 109" impacttype="terraindirt" bump="coastal_japan\ground_dirt3_specbump_co_japan">coastal_japan\ground_dirt3_co_japan</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraindirt" bump="coastal_japan\ground_dirt4_specbump_co_japan">coastal_japan\ground_dirt4_co_japan</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraingrass" bump="coastal_japan\ground_grass1_specbump_co_japan">coastal_japan\ground_grass1_co_japan</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraingrass" bump="coastal_japan\ground_grass2_specbump_co_japan">coastal_japan\ground_grass2_co_japan</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraingrass" bump="caribbean\ground1specbump_crb">coastal_japan\seafloor_coral1_co_japan</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraingrass" bump="coastal_japan\ground_grass3_specbump_co_japan">coastal_japan\ground_grass3_co_japan</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraingrass" bump="coastal_japan\ground_grass3_specbump_co_japan">coastal_japan\ground_forest_co_japan</subtype>
+		</uiclass>
+		<uiclass uiname="Deccan Plateau">
+			<subtype mapcolor="179 120 081" impacttype="terraindirt" bump="deccan\ground_dirt2_specbump_deccan" sparkle="sparkle">deccan\ground_dirt2_deccan</subtype>
+			<subtype mapcolor="130 087 053" impacttype="terraindirt" bump="deccan\ground_dirt2_specbump_deccan" sparkle="sparkle">deccan\wall_deccan</subtype>
+			<subtype mapcolor="167 169 121" impacttype="terraingrass" bump="deccan\ground_grass1_specbump_deccan" sparkle="sparkle">deccan\ground_grass1_deccan</subtype>
+			<subtype mapcolor="167 169 121" impacttype="terraingrass" bump="deccan\ground_grass2_specbump_deccan" sparkle="sparkle">deccan\ground_grass2_deccan</subtype>
+			<subtype mapcolor="167 169 121" impacttype="terraingrass" bump="deccan\ground_grass2_specbump_deccan" sparkle="sparkle">deccan\ground_grass3_deccan</subtype>
+			<subtype mapcolor="167 169 121" impacttype="terraingrass" bump="deccan\ground_grass4_specbump_deccan" sparkle="sparkle">deccan\ground_grass4_deccan</subtype>
+			<subtype mapcolor="179 120 081" impacttype="terraindirt" bump="deccan\ground_dirt3_specbump_deccan" sparkle="sparkle">deccan\ground_dirt3_deccan</subtype>
+			<subtype mapcolor="179 120 081" impacttype="terraindirt" bump="deccan\ground_dirt4_specbump_deccan" sparkle="sparkle">deccan\ground_dirt4_deccan</subtype>
+			<subtype mapcolor="179 120 081" impacttype="terraindirt" bump="deccan\ground_dirt5_specbump_deccan" sparkle="sparkle">deccan\ground_dirt5_deccan</subtype>
+			<subtype mapcolor="167 169 121" impacttype="terraingrass" bump="deccan\ground_forest_specbump_deccan" sparkle="sparkle">deccan\ground_forest_deccan</subtype>
+		</uiclass>
+		<uiclass uiname="Himalayas">
+			<subtype mapcolor="166 151 119" impacttype="terraindirt" bump="himalayas\ground_dirt5_specbump_himal">himalayas\ground_dirt1_himal</subtype>
+			<subtype mapcolor="166 151 119" impacttype="terraindirt" bump="himalayas\ground_dirt5_specbump_himal">himalayas\ground_dirt2_himal</subtype>
+			<subtype mapcolor="166 151 119" impacttype="terraindirt" bump="himalayas\ground_dirt5_specbump_himal">himalayas\ground_dirt3_himal</subtype>
+			<subtype mapcolor="166 151 119" impacttype="terraindirt" bump="himalayas\ground_dirt5_specbump_himal">himalayas\ground_dirt4_himal</subtype>
+			<subtype mapcolor="166 151 119" impacttype="terraindirt" bump="himalayas\ground_dirt5_specbump_himal">himalayas\ground_dirt5_himal</subtype>
+			<subtype mapcolor="166 151 119" impacttype="terraindirt" bump="himalayas\ground_dirt5_specbump_himal">himalayas\ground_dirt6_himal</subtype>
+			<subtype mapcolor="166 151 119" impacttype="terraingrass" bump="himalayas\ground_dirt5_specbump_himal">himalayas\ground_dirt7_himal</subtype>
+			<subtype mapcolor="166 151 119" impacttype="terraingrass" bump="himalayas\ground_dirt5_specbump_himal">himalayas\ground_dirt8_himal</subtype>
+			<subtype mapcolor="225 238 238" impacttype="terraingrass" bump="himalayas\ground_dirt5_specbump_himal">himalayas\cliff_himal_edge</subtype>
+			<subtype mapcolor="225 238 238" impacttype="terraingrass" bump="himalayas\ground_dirt5_specbump_himal">himalayas\cliff_himal_top</subtype>
+		</uiclass>
+		<uiclass uiname="Mongolia">
+			<subtype mapcolor="192 162 123" impacttype="terraingrass" bump="mongolia\ground_grass2_bumpspec_mongol">mongolia\ground_forest_mongol</subtype>
+			<subtype mapcolor="192 162 123" impacttype="terraingrass" bump="mongolia\ground_grass2_bumpspec_mongol">mongolia\ground_grass1_mongol</subtype>
+			<subtype mapcolor="192 162 123" impacttype="terraingrass" bump="mongolia\ground_grass2_bumpspec_mongol">mongolia\ground_grass2_mongol</subtype>
+			<subtype mapcolor="192 162 123" impacttype="terraingrass" bump="mongolia\ground_grass2_bumpspec_mongol">mongolia\ground_grass3_mongol</subtype>
+			<subtype mapcolor="192 162 123" impacttype="terraingrass" bump="mongolia\ground_grass2_bumpspec_mongol">mongolia\ground_grass4_mongol</subtype>
+			<subtype mapcolor="192 162 123" impacttype="terraingrass" bump="mongolia\ground_sand1_bumpspec_mongol">mongolia\ground_grass5_mongol</subtype>
+			<subtype mapcolor="192 162 123" impacttype="terraingrass" bump="mongolia\ground_sand1_bumpspec_mongol">mongolia\ground_grass6_mongol</subtype>
+			<subtype mapcolor="192 162 123" impacttype="terraindirt" bump="mongolia\ground_sand1_bumpspec_mongol">mongolia\ground_sand1_mongol</subtype>
+			<subtype mapcolor="192 162 123" impacttype="terraindirt" bump="mongolia\ground_sand1_bumpspec_mongol">mongolia\ground_sand2_mongol</subtype>
+			<subtype mapcolor="192 162 123" impacttype="terraindirt" bump="mongolia\ground_sand1_bumpspec_mongol">mongolia\ground_sand3_mongol</subtype>
+			<subtype mapcolor="070 055 035" impacttype="terraingrass" bump="mongolia\ground_grass2_bumpspec_mongol">mongolia\ground_clifftop_mongol</subtype>
+		</uiclass>
+		<uiclass uiname="Yellow River">
+			<subtype mapcolor="097 125 078" impacttype="terraingrass" bump="Yellow_river\forest_bumpspec_yellow_riv">Yellow_river\forest_yellow_riv</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraingrass" bump="Yellow_river\grass1_bumpspec_yellow_riv">Yellow_river\grass1_yellow_riv</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraingrass" bump="Yellow_river\grass2_bumpspec_yellow_riv">Yellow_river\grass2_yellow_riv</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraingrass" bump="Yellow_river\grass3_bumpspec_yellow_riv">Yellow_river\grass3_yellow_riv</subtype>
+			<subtype mapcolor="097 125 078" impacttype="terraingrass" bump="Yellow_river\grass4_bumpspec_yellow_riv">Yellow_river\grass4_yellow_riv</subtype>
+			<subtype mapcolor="109 109 109" impacttype="terraindirt" bump="Yellow_river\stone1_bumpspec_yellow_riv">Yellow_river\stone1_yellow_riv</subtype>
+			<subtype mapcolor="109 109 109" impacttype="terraindirt" bump="Yellow_river\stone2_bumpspec_yellow_riv">Yellow_river\stone2_yellow_riv</subtype>
+			<subtype mapcolor="109 109 109" impacttype="terraindirt" bump="Yellow_river\stone3_bumpspec_yellow_riv">Yellow_river\stone3_yellow_riv</subtype>
+		</uiclass>
+		<uiclass uiname="Roads">
+			<subtype impacttype="terrainstone">roads\road_snow</subtype>
+			<subtype impacttype="terrainstone">roads\road_sand</subtype>
+			<subtype impacttype="terrainstone">roads\road_grass</subtype>
+			<subtype impacttype="terrainstone">roads\road_dirt</subtype>
+		</uiclass>
+		<uiclass uiname="Sahara">
+			<subtype mapcolor="192 162 123" impacttype="terrainsand" bump="sahara\shoreline1_bump">sahara\shoreline1</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="sahara\sand_bump">sahara\ground_sand1</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="sahara\sand_bump">sahara\ground_sand2</subtype>
+			<subtype mapcolor="065 100 055" impacttype="terraingrass" bump="sahara\sand_bump">sahara\ground_sand3</subtype>
+		</uiclass>
+	</type>
+	<type name="Shoreline" uiname="Shoreline/Passable All" mapcolor="179 177 152">
+		<uiclass uiname="Borneo">
+			<subtype impacttype="terrainsand" bump="california\groundshore1_bump_cal">borneo\shoreline1_borneo</subtype>
+			<subtype impacttype="terrainsand" bump="california\groundshore1_bump_cal">borneo\seafloor1_borneo</subtype>
+		</uiclass>
+		<uiclass uiname="Ceylon">
+			<subtype impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\ground_shoreline1_ceylon</subtype>
+			<subtype impacttype="terrainsand" bump="carolinas\ground_shoreline2_bump_car">ceylon\ground_shoreline2_ceylon</subtype>
+		</uiclass>
+		<uiclass uiname="Coastal Japan">
+			<subtype impacttype="terrainsand" bump="coastal_japan\shoreline1_specbump_co_japan">coastal_japan\shoreline1_co_japan</subtype>
+		</uiclass>
+		<uiclass uiname="Yellow River">
+			<subtype impacttype="terraindirt" bump="Yellow_river\shoreline1_bumpspec_yellow_riv">Yellow_river\shoreline1_yellow_riv</subtype>
+		</uiclass>
+	</type>
+</terraintypes>
